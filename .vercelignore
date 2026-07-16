@@ -1,0 +1,23 @@
+# Keep personal + local-only files out of the deployment.
+# Vercel serves only the static site (index.html, styles.css, script.js, assets/).
+
+# Never deploy the source resume / any PDFs (personal details)
+*.pdf
+
+# Local preview / helper files (do not affect Vercel's build)
+preview.*
+serve.*
+*.local.*
+dev-*
+
+# Docs & tooling
+README.md
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# transient filesystem artifacts
+.fuse_hidden*

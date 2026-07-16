@@ -1,0 +1,17 @@
+# Personal source files — do not commit
+*.pdf
+
+# Vercel
+.vercel/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+node_modules/
+
+.fuse_hidden*
+
+# Claude Code local config
+.claude/
