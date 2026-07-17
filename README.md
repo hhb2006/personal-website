@@ -1,6 +1,7 @@
 # Hongbo Huang — Personal Website
 
 personal-website-hhb.vercel.app
+
 A single, static personal site built with plain HTML, CSS, and JavaScript.
 No build step, no framework, no dependencies. Theme: dark + cubism.
 
