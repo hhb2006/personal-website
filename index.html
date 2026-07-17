@@ -258,6 +258,34 @@
     <a href="#top">Back to top &uarr;</a>
   </footer>
 
+  <!-- ===== Chat widget ===== -->
+  <button class="chat-fab" id="chat-fab" aria-label="Ask about Hongbo" aria-expanded="false" aria-controls="chat-panel">
+    <span class="chat-fab-icon" aria-hidden="true">&#9998;</span>
+    <span class="chat-fab-label">Ask about Hongbo</span>
+  </button>
+
+  <section class="chat-panel" id="chat-panel" aria-labelledby="chat-title" hidden>
+    <header class="chat-head">
+      <div>
+        <span class="chat-eyebrow">Salon</span>
+        <h3 id="chat-title">Ask about Hongbo</h3>
+      </div>
+      <button class="chat-close" id="chat-close" aria-label="Close chat">&times;</button>
+    </header>
+    <div class="chat-log" id="chat-log" role="log" aria-live="polite">
+      <div class="chat-msg bot">
+        Hello — I can answer questions about Hongbo's background, education,
+        skills, and interests, drawn from his resume. What would you like to know?
+      </div>
+    </div>
+    <form class="chat-form" id="chat-form">
+      <label class="visually-hidden" for="chat-input">Your question</label>
+      <input class="chat-input" id="chat-input" type="text" autocomplete="off"
+             placeholder="e.g. What does Hongbo study?" maxlength="500" />
+      <button class="chat-send" id="chat-send" type="submit" aria-label="Send">&rarr;</button>
+    </form>
+  </section>
+
   <script src="script.js"></script>
 </body>
 </html>

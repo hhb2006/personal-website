@@ -1,0 +1,9 @@
+{
+  "name": "hongbo-huang-personal-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal website for Hongbo Huang, with a corpus-grounded chat widget.",
+  "dependencies": {
+    "@anthropic-ai/sdk": ">=0.40.0 <1.0.0"
+  }
+}
